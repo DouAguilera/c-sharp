@@ -90,7 +90,7 @@ namespace inventario
 
             movimientoInventario(codigo, Int32.Parse(cantidad), "-");
         }
-             static void ajusteNegativoDeInventario() {
+        static void ajusteNegativoDeInventario() {
             string codigo = "";
             string cantidad = "";
 
