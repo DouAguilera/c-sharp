@@ -37,12 +37,12 @@ namespace Pilares
             Console.WriteLine(" ");
             Console.WriteLine("**********ANIMALES POR SU TIPO**********");
             Console.WriteLine("===========MAMIFEROS=========");
-            Console.WriteLine("Animal numero es: " + pe.Id);
+            Console.WriteLine("Animal Numero: " + pe.Id);
             Console.WriteLine("El animal es: " + pe.Nombre);
             Console.WriteLine("Su Raza es: "+  pe.Raza);
             Console.WriteLine("Cantidad de Patas: " + pe.CantidadePatas);
             Console.WriteLine("El animal come: " + pe.Comer);
-            Console.WriteLine("El sonido del animal es: " + pe.Ruido);
+            Console.WriteLine("Su onomatopeya es: " + pe.Ruido);
             Console.WriteLine("El animal Camina?: " + pe.Caminar);
 
             Console.WriteLine(" ");
@@ -50,7 +50,7 @@ namespace Pilares
             Console.WriteLine("El animal es: " + g.Nombre);
             Console.WriteLine("Cantidad de Patas: " + g.CantidadePatas);
             Console.WriteLine("El animal come: " + g.Comer);
-            Console.WriteLine("El sonido del animal es: " + g.Ruido);
+            Console.WriteLine("Su onomatopeya es: " + g.Ruido);
             Console.WriteLine("El animal Camina?: " + pe.Caminar);
 
             Console.WriteLine(" ");
@@ -58,7 +58,7 @@ namespace Pilares
             Console.WriteLine("El animal es: " + m.Nombre);
             Console.WriteLine("Cantidad de Patas: " + m.CantidadePatas);
             Console.WriteLine("El animal come: " + m.Comer);
-            Console.WriteLine("El sonido del animal es: " + m.Ruido);
+            Console.WriteLine("Su onomatopeya es: " + m.Ruido);
             Console.WriteLine("El animal Camina?: " + m.Caminar);
 
             Console.WriteLine(" ");
@@ -88,6 +88,7 @@ namespace Pilares
             Console.WriteLine("Una caracteristica es: " + pg.Caracteristica);
             Console.WriteLine("Si esta inseguro se desinfla?: " + pg.Seguro);
             Console.WriteLine(" ");
+           
            
 
                 

@@ -7,6 +7,7 @@ namespace Pilares
         public bool Caminar { get; set; }
 
         public string Ruido { get; set; }
-        
+            
     }
+
 }
